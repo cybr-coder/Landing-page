@@ -48,7 +48,8 @@ header p{
     font-size: 18px;
 }
 
-.top-container {
+.top-container,
+.cta-container {
     
     margin: 16px 150px 0;
 }
@@ -82,7 +83,13 @@ nav {
     height: 224px;
     width: 400px;
     background-color: rgba(122, 122, 121, 0.212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
 
 .top-btn {
     background-color: #3882f6;
@@ -119,4 +126,55 @@ nav {
     border-radius: 15px;
     height: 100px;
     width: 100px;
+}
+
+/* Testimonial Section */
+
+#Testimonial {
+    background-color: #E5E7EB;
+    padding: 40px 300px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify
+}
+
+.author {
+    text-align: right;
+}
+
+/* CTA Section */
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 180px ;
+}
+
+.cta-text {
+    margin: 40px 70px;
+    color: #f9faf8;
+}
+.cta-btn {
+    margin-top: 40px;
+    margin-right: 70px;
+    border: 2px solid #f9faf8;  
+    border-radius: 7px; 
+    padding: 7px 25px;
+    color: #f9faf8;
+    background-color: transparent;
+}
+
+#footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
 }
